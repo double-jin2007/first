@@ -1,0 +1,26 @@
+做一个*.abc.cn的次级域名A记录指向222.222.222.222，那么生效后当访问者无论是输入“123.abc.cn”还是“123.123.abc.cn”甚至可以是“!@#.$%$.6543.ww.a.abc.cn”这样的 任意字符 均可以指向到222.222.222.222这个IP地址。
+
+怎么做?如下
+
+如何为用户提供2级域名服务.
+网站本域为example.com,向用户提供username.example.com的个人页访问服务
+步骤如下:
+
+1.配置一条默认DNS规则*.example.com --> example.com
+
+
+2.配置apache conf,在example的VHost加入一条规则ServerAlias *.example.com
+
+
+3.程序中访问 $_SERVER['HTTP_HOST'] 来获取当前域名
+?? 比如nosoft.example.com
+--------------------- 
+作者：phphot 
+来源：CSDN 
+原文：https://blog.csdn.net/phphot/article/details/2276355 
+版权声明：本文为博主原创文章，转载请附上博文链接！
+
+
+https://www.jianshu.com/p/e10f7fd84b08
+
+

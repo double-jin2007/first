@@ -1,0 +1,90 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>集号吧管理后台</title>
+<link href="/member/css/public.css?v=201512031448" rel="stylesheet">
+<link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="/css/usercenter.css?v=201601051620" rel="stylesheet">
+<script src="http://static1.jihaoba.com/js/jquery.min.js"></script>
+<script src="http://static1.jihaoba.com/js/bootstrap.min.js"></script>
+<script src="http://static1.jihaoba.com/member/js/common.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="row-fluid" style="height:80px; padding-top:5px;">
+<div class="span1"></div>
+<div class="span4">
+<div class="span4"><img src="/images/logo.png" width="135" height="66"></div>
+<div class="span8"></div>
+</div>
+<div class="span7"></div>
+</div>
+<div class="row">
+<div class="span1"></div>
+<div class="span10">
+<div id="navbar-example" class="navbar navbar-static">
+<div class="navbar-inner">
+<div class="container" style="width: auto;">
+<ul class="nav" role="navigation">
+<li>
+<a href="http://www.jihaoba.com" role="button">集号吧首页</a>
+</li>
+<li>
+<a href="http://user.jihaoba.com" role="button">会员中心</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="span1"></div>
+</div>
+<div class="row">
+<div class="span1"></div>
+<div class="span10">
+<div class="hero-unit">
+<h1>Sorry</h1>
+<p>咦~页面不见了~ 请核对您输入的页面地址是否正确哦~</p>
+<p><a class="btn btn-danger btn-large" href="http://user.jihaoba.com">回到会员中心</a></p>
+</div>
+</div>
+<div class="span1"></div>
+</div>
+</div>
+<div class="footer">
+<p style="text-align:center;">
+<a href="http://www.jihaoba.com/" target="_blank">首页</a> | <a href="/logout" target="_blank">退出</a> | <a href="/mobile/search" target="_blank">高级搜索</a> </p>
+<p style="text-align:center;">
+<a href=" http://www.jihaoba.com" target="_blank">集号吧</a> 版权所有 长春吉号吧科技有限公司 Copyright ©2008-2016 <script src="http://s14.cnzz.com/stat.php?id=1585341&web_id=1585341&show=pic" language="JavaScript" charset="gb2312"></script>
+</p>
+</div>
+</div>
+<script src="http://static1.jihaoba.com/js/validate.js?v=201904101203"></script>
+<div class="QQ_S">
+<div class="Q_top" onclick="HideFoot()"> <span class="signi"></span>收起</div>
+<div class="Q_botm">
+<div class="Q_anser">
+<div class="Q_anser_hide"> <a href="/suggest/index" title="提交有问必答"><span class="hide_pic1"></span>提交有问必答 </a> </div>
+</div>
+<div class="Q_sign">
+<div class="Q_sign_hide" onclick="backToTop();"><a href="javascript:void(0)" title="返回顶部"><span class="hide_pic2"></span>返回顶部 </a></div>
+</div>
+</div>
+</div>
+<div class="QQ_S1">
+<div class="Q_top1" onclick="ShowFoot()"> <span class="signj"></span>展开</div>
+<div class="Q_botm1">
+<div class="Q_pic1">
+<div class="Q_pic1_hide"> <a href="tencent://message/?uin=800060708" rel="nofollow"><span class="hide_pic3"></span>QQ交谈</a></div>
+</div>
+<div class="Q_sign1">
+<div class="Q_sign1_hide" onclick="backToTop();"><a href="javascript:void(0)">返回顶部</a></div>
+</div>
+</div>
+</div>
+<script src="http://static1.jihaoba.com/js/kefuqq.js"></script>
+</body>
+</html>
